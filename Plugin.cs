@@ -189,6 +189,12 @@ namespace MOTD_stats
                         Debug.LogWarning($"xenonorsomething in room: {player.UserId}");
                     }
 
+                    if (player.UserId == "5883370AB0CBD7B")
+                    {
+                        motdTextObject.SetText(motdTextObject.text + $"\n \n CIPERUOY (WANTED TO BE ADDED)  = {player.UserId}");
+                        Debug.LogWarning($"xenonorsomething in room: {player.UserId}");
+                    }
+
 
                     // content creators
 
